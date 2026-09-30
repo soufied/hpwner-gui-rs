@@ -1,0 +1,12 @@
+# Cargo / Rust build artifacts
+/target/
+target/
+**/*.rs.bk
+
+# Claude directories
+claude/
+.claude/
+
+# Binary files
+hpwnr-linux-x86_64
+hpwner-linux-x86_64
