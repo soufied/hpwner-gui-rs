@@ -1,6 +1,6 @@
 # hpwnr GUI
 
-A desktop GUI front end for the `hpwnr` command-line tool, built with Rust and [egui](https://github.com/emilk/egui). It provides forms for decrypting and encrypting Happ/V2RayTun subscription links, fetching and converting subscriptions, and configuring request options, without needing to type CLI arguments by hand.
+A desktop GUI front end for the [`hpwnr`](https://github.com/Omegaplexx/hpwnr) command-line tool, built with Rust and [egui](https://github.com/emilk/egui). It provides forms for decrypting and encrypting Happ/V2RayTun subscription links, fetching and converting subscriptions, and configuring request options, without needing to type CLI arguments by hand.
 
 The app shells out to the `hpwnr` executable to perform the actual decrypt, encrypt, fetch and convert operations, and only handles input, validation and result display itself.
 
